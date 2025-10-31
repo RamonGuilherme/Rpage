@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.compartilha{
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+.menu{
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color:cornflowerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px 10px 0 0;
+    z-index: 1;
+    
+
+    
+    
+}
+
+.links{
+    color: white;
+padding: 6px;
+    
+    
+    
+    
+    
+    
+    
+}
+
+.links:hover{
+    background-color: #fff;
+    color: cornflowerblue;
+    border-radius: 10px;
+    
+    
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    
+    cursor: pointer;
+    
+    
+
+    
+}
+
+.itens{
+    gap: 5px;
+    margin: 0 15px 0 15px;
+}
+
+
+
+.painel_sup{
+    background-color:cornflowerblue;
+    width: 100%;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    
+    
+
+}
+
+.painel_sup img{
+
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+#tela_info{
+
+    width: 200px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: cornflowerblue;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+
+
+
+
+#perfil{
+    
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#perfil img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 2px solid cornflowerblue;
+   
+}
+
+#perfil h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    color:cornflowerblue;
+    cursor: default;
+}
+
+#perfil h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.6rem;
+    color:cornflowerblue;
+    cursor: default;
+}
+
+#perfil p{
+    text-align: center;
+    margin-top: 20px;
+    color: cornflowerblue;
+    cursor: default;
+}
+
+
+
+
+
+#skills{
+    
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: default;
+    
+    
+}
+
+#skills h1{
+    font-size: 1.7rem;
+    font-family: verdana;
+    color: cornflowerblue;
+}
+
+#skills img{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+   
+}
+
+.sks{
+  
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 1px solid;
+    font-family: verdana;
+    gap: 10px;
+    color: cornflowerblue;
+}
+
+.barra{
+  background-color: cornflowerblue;
+    right: 12px;
+    width: 180px;
+   border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.sinal{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightgreen;
+}
+
+.sinal{
+    animation: 1.5s infinite sinal;
+}
+
+
+
+#status{
+    font-size: 0.6rem;
+}
+
+
+#projetos{
+    
+    background-color: #fff;
+    color: cornflowerblue;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: default;
+    
+    
+}
+
+#projetos h1{
+    font-size: 1.7rem;
+}
+
+@keyframes sinal{
+    
+     0%{transform:scale(0.5);}
+     100%{transform:scale(1.3);}
+}
+
+.sinal_off{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightslategrey;
+}
+
+.sinal_off{
+    animation: 1.5s infinite sinal;
+}
+
+@keyframes sinal_off{
+    
+     0%{transform:scale(0.5);}
+     100%{transform:scale(1.3);}
+}
+
+
+#redes{
+    
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: default;
+    
+    
+}
+
+#redes h1{
+    font-size: 1.7rem;
+    font-family: verdana;
+    color: cornflowerblue;
+}
+
+#redes img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+.mais_detalhes{
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    font-family: verdana;
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: none;
+}
+
+.max_detalhe{
+    
+    width: 80%;
+    display: flex;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    font-family: verdana;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    display: none;
+    
+}
+
+.max_detalhe img{
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
