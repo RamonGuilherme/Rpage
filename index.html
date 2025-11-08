@@ -10,7 +10,7 @@
 <body>
 
 
-    <main>
+    <main class="tudo">
 
         <header class="painel">
             <nav class="conteudo">
@@ -34,10 +34,11 @@
         
 
         <section class="painel_sup">
-            <img src="info.png" class="compartilha">
+            <img src="conf.png" class="compartilha">
+            <img src="info.png" alt="informação" class="compartilha" onclick="rj()">
             <div id="tela_info"><marquee>Em construção</marquee></div>
-            <img src="comp.png" class="compartilha">
-            <img src="lua.png" class="compartilha">
+            <img src="comp.png" class="compartilha" onclick="share()">
+            <img src="lua.png" class="compartilha" onclick="trocatema()">
         </section>
         
         
@@ -47,15 +48,18 @@
 
 
         <section id="perfil">
-            <img src="perfil.jpg">
+            <img src="perfil.jpg" class="ft_perfil">
 
-            <h1>Ramon Guilherme</h1>
+            <h1>Ramon Guilherme_</h1>
 
             <h3>Developer For Web</h3>
+
+            <div class="maps"><p>Rio de janeiro</p><img src="local.png" class="loca"></div>
             
-            <p>Projeto em construção </p>        
-            
+                
         </section>
+
+         
         
         
         
@@ -65,14 +69,14 @@
             <h1>Skills</h1> 
             
             <div class="sks">
-                Html5 
+                Html5 <img src="html5.png">
                 <span class="barra">
                90%     
                 </span>
             </div>  
             
 <div class="sks">
-                Css3 
+                Css3 <img src="css3.png">
                 <span class="barra">
                82%     
                 </span>
@@ -80,7 +84,7 @@
             
             
 <div class="sks">
-                Javascript 
+                Javascript <img src="javascript.png">
                 <span class="barra">
                12%     
                 </span>
@@ -95,8 +99,8 @@
             <h1>Projetos</h1> 
             
             
-     <div class="sks">
-              <img src="down.png">  <p>Linktree</p><div class="sinal"></div><span id="status">online</span>
+     <div class="sks" onclick="abre()">
+              <img src="down.png">  <p>Linktree</p><div class="tag"><div class="sinal"></div><span id="status">online</span></div>
      </div>
             
             <div class="max_detalhe">
@@ -141,7 +145,7 @@
             
          
             <div class="sks">
-                <img src="down.png"><p>Landing Page</p><div class="sinal"></div><span id="status">online</span>
+                <img src="down.png"><p>Essa Landing Page</p><div class="tag"><div class="sinal"></div><span id="status">online</span></div>
      </div>
 
       <div class="max_detalhe">
@@ -171,7 +175,7 @@
 
             
             <div class="sks">
-                <img src="down.png"><p>Em desenvolvimento</p><div class="sinal_off"></div><span id="status">offline</span>
+                <img src="down.png"><p>Em desenvolvimento</p><div class="tag"><div class="sinal_off"></div><span id="status">offline</span></div>
      </div>
 
      <div class="max_detalhe">
@@ -200,7 +204,7 @@
 
             
             <div class="sks">
-                <img src="down.png"><p>Em desenvomimento 2</p><div class="sinal_off"></div><span id="status">offline</span>
+                <img src="down.png"><p>Em desenvomimento 2</p><div class="tag"><div class="sinal_off"></div><span id="status">offline</span></div>
      </div>
 
      <div class="max_detalhe">
@@ -226,7 +230,7 @@
             </div> 
             
 <div class="sks">
-               <img src="down.png"> <p>Não iniciado</p><div class="sinal_off"></div><span id="status">offline</span>
+               <img src="down.png"> <p>Não iniciado</p><div class="tag"><div class="sinal_off"></div><span id="status">offline</span></div>
      </div>
 
 
@@ -254,7 +258,7 @@
             </div> 
             
 <div class="sks">
-                <img src="down.png"><p>Não iniciado</p><div class="sinal_off"></div><span id="status">offline</span>
+                <img src="down.png"><p>Não iniciado</p><div class="tag"><div class="sinal_off"></div><span id="status">offline</span></div>
      </div>
 
 
@@ -303,6 +307,8 @@
 
 
     </main>
+
+    <script src="app.js"></script>
 
 </body>
 </html>
