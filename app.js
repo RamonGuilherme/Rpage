@@ -68,8 +68,35 @@ let tela =document.querySelector(".mais_detalhes");
 			
 
 		}
-
-
-
-
 		
+		// Painel de configuração //
+
+		let configure = document.querySelector('.confi')
+
+		function confi_painel(){
+
+			configure.style.display = 'block'
+
+		}
+		
+		// Data e Hora
+
+		let dh = document.querySelector('.dh')
+
+		dh.innerHTML=(Date())
+
+
+		// Mostrar painel temperatura
+
+		let chuva = document.querySelector('.clima')
+
+		function kabum(){
+			chuva.style.display = 'block'
+		}
+
+
+		let hora = document.querySelector('.dh')
+
+		function hd(){
+			hora.style.display = 'block'
+		}

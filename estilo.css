@@ -7,6 +7,11 @@
 
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 .compartilha{
     width: 18px;
     height: 18px;
@@ -134,14 +139,14 @@ padding: 6px;
     height: 100px;
     margin-bottom: 30px;
     border-radius: 50%;
-    border: 2px solid cornflowerblue;
+    box-shadow: 0 0 10px cornflowerblue;
 
 }
 
 .ft_perfil:hover{
 
-    box-shadow: 0px 6px 6px rgba(0, 0, 255, 0.6);
-    transition: all 0.5s;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
 }
 
 #perfil h1{
@@ -210,7 +215,7 @@ padding: 6px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
-    border: 1px solid;
+    box-shadow: 0 0 2px cornflowerblue;
     font-family: verdana;
     gap: 10px;
     color: cornflowerblue;
@@ -221,6 +226,19 @@ padding: 6px;
 .sks img{
     width: 15px;
     height: 15px;
+}
+
+.sks:hover{
+
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+
+}
+
+.sks:hover .barra{
+    background-color: blueviolet;
+    width: 100px;
+    transition: all ease-in-out 1s;
 }
 
 .barra{
@@ -246,7 +264,7 @@ padding: 6px;
 
 .tag{
     
-    border: 0.1em solid #d6d2d2;
+    box-shadow: 0 0 2px cornflowerblue;
     display: flex;
     gap: 1px;
     padding: 2px;
@@ -362,7 +380,7 @@ padding: 6px;
     width: 80%;
     height: auto;
     display: flex;
-    border: 1px solid cornflowerblue;
+    box-shadow: 0 0 2px cornflowerblue;
     border-radius: 10px;
     font-family: verdana;
     font-size: 0.9rem;
@@ -428,7 +446,7 @@ padding: 6px;
     margin-top: 5%;
    width: 200px;
   height: 300px;
-   border: 1px solid  cornflowerblue; 
+   box-shadow: 0 0 2px cornflowerblue;;
    border-radius: 10px;    
 }
 
@@ -479,6 +497,62 @@ padding: 6px;
     justify-content: center;
     padding: 2%;
     font-size: 0.7rem;
+}
+
+.confi{
+
+    
+    width: 180px;
+    height: 100px;
+    z-index: 1;
+    margin-top: 1%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    color: cornflowerblue;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    display: none;
+    box-shadow: 0 0 2px cornflowerblue;
+    gap: 5px;
+    cursor: default;
+
+}
+
+.clima{
+    width: 80px;
+    height: 50px;
+    box-shadow: 0 0 2px cornflowerblue;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    color: cornflowerblue;
+    margin-left: 65%;
+    margin-top: 10%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    display: none;
+    
+    
+    
+}
+
+.dh{
+    width: 200px;
+    height: 40px;
+    box-shadow: 0 0 2px cornflowerblue;
+    color: cornflowerblue;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    margin-left: 45%;
+    margin-top: 25%;
+    cursor: default;
+    padding: 5px;
+    display: none;
+    position: absolute;
 }
 
 
