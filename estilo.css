@@ -356,6 +356,14 @@ padding: 6px;
     
 }
 
+#redes img:hover{
+
+    transform: scale(1.1);
+    transition: all ease-in-out 0.2s;
+    border-radius: 4px;
+    border-bottom: 1px solid cornflowerblue;
+}
+
 .mais_detalhes{
     background-color: cornflowerblue;
     color: white;
